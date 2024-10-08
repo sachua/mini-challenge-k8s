@@ -6,4 +6,4 @@
 
 Your skills have not only solved a crime but have also showcased your prowess in Kubernetes.
 
-The murderer’s identity is now revealed — justice has been served!"
+The murderer’s identity has been revealed — justice has been served!"
