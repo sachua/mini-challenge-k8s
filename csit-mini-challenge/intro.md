@@ -1,0 +1,3 @@
+In the bustling heart of Singapore, a chilling mystery unfolds. A renowned tech entrepreneur has been found dead under suspicious circumstances, and the police are stumped. They turn to CSIT to crowdsource the best forensic tech investigators to crack this case.
+
+Participants in this online challenge will take on the role of elite investigators, using their skills in cloud infrastructure services to uncover clues that will ultimately reveal the identity of the murderer.
