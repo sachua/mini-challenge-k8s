@@ -1,0 +1,21 @@
+{
+  "title": "CSIT Advanced Challenge 2024",
+  "description": "Discover the motives of our culprit from the Mini Challenge",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Broken Communications",
+        "text": "text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2node"
+  }
+}
