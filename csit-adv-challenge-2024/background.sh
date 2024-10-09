@@ -16,7 +16,7 @@ spec: \
       labels: \
         app: analysis-unit \
     spec: \
-      nodeSelector:
+      nodeSelector: \
         kubernetes.io/hostname: node01 \
       containers: \
       - name: task-2 \
