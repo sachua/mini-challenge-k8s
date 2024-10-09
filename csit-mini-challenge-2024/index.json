@@ -1,0 +1,57 @@
+{
+  "title": "CSIT Mini Challenge",
+  "description": "A Murder Mystery",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Task 1: Initialization",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Task 1: Initialization",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Task 1: Initialization",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Task 2: Decoding Clues",
+        "text": "step4/text.md",
+        "background": "step4/background.sh"
+      },
+      {
+        "title": "Task 2: Decoding Clues",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Task 2: Decoding Clues",
+        "text": "step6/text.md"
+      },
+      {
+        "title": "Task 3: Connecting the Dots",
+        "text": "step7/text.md"
+      },
+      {
+        "title": "Task 3: Connecting the Dots",
+        "text": "step8/text.md",
+        "verify": "step8/verify.sh"
+      },
+      {
+        "title": "Task 2: Decoding Clues",
+        "text": "step9/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
