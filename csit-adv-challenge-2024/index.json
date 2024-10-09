@@ -9,6 +9,7 @@
       {
         "title": "Broken Communications",
         "text": "text.md",
+        "foreground": "foreground.sh",
         "background": "background.sh"
       }
     ],
