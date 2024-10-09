@@ -8,7 +8,8 @@
     "steps": [
       {
         "title": "Broken Communications",
-        "text": "text.md"
+        "text": "text.md",
+        "background": "step4/background.sh"
       }
     ],
     "finish": {
