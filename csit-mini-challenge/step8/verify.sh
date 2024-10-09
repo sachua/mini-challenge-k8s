@@ -1,6 +1,6 @@
 #!/bin/bash
 
-running=$(kubectl get deploy -n default investigation-unit -o jsonpath='{.status.readyReplicas}')
+running=$(kubectl get deploy -n default command-center -o jsonpath='{.status.readyReplicas}')
 imageName=$(kubectl get deploy -n default command-center -o jsonpath='{.spec.template.spec.containers[0].image}')
 investigationPort=$(kubectl get deploy -n default investigation-unit -o jsonpath='{.spec.template.spec.containers[0].ports[?(@.containerPort==80)].containerPort}')
 analysisPort=$(kubectl get deploy -n default analysis-unit -o jsonpath='{.spec.template.spec.containers[0].ports[?(@.containerPort==80)].containerPort}')
